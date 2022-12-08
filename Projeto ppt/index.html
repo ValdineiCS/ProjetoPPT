@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title> Pedra, Papel ou Tesoura</title>
+    </head>
+    <body>
+
+        <style>
+
+            .player-options img{
+                max-width: 150px;
+                opacity: 0.3;
+                cursor: pointer;
+            }
+            .enemy-options img{
+                max-width: 150px;
+                opacity: 0.3;
+                cursor: pointer;
+            }
+
+            .align{
+                display: flex;
+            }
+            .player-options,.enemy-options{
+                width: 50%;
+            }
+        </style>
+
+        <h1 style="text-align:Center;"> Pedra, Papel ou Tesoura</h1>
+        <h2 style=" text-align:center;" class="Vencedor"></h2>
+        <hr>
+        <div class="align">
+    <div class="player-options">
+       <div><img opt="rock" src="/rock.png" alt=""></div>
+       <div><img opt="papper" src="/paper.png" alt="">  </div>
+       <div><img opt="scisor" src="/scisor.png" alt=""></div>
+    </div>
+
+    <div class="enemy-options">
+        <div><img opt="rock" src="/rock.png" alt=""></div>
+        <div><img opt="papper" src="/paper.png" alt="">  </div>
+        <div><img opt="scisor" src="/scisor.png" alt=""></div>
+    </div>
+        </div>
+    
+        <script src="ppt.js"></script>
+    
+    </body>
+
+</html>
